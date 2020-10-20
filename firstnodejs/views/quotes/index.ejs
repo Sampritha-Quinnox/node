@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quotes List</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div align="center">
+    <div class="myDiv">
+      <h1 style="color:lightcyan;">GET QUOTES</h1>
+      </div>
+    <div class="container">
+      <h3><a href="/quotes/create">Create Quotes</a></h3>
+      <h1>Quotes List</h1>
+      <% if(quotes.length>0) { %>
+      <table class="list-table">
+        <thead>
+          <tr>
+            <th>Quotes title</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+
+          <% for(var i=0; i<quotes.length;i++) { %>
+            <tr>
+              <td><a href="/quotes/show/<%= quotes[i]._id%>"><%= quotes[i].name%></a></td>
+              
+            </tr>
+          <% } %>
+        </tbody>
+      </table>
+      <% } else { %>
+        <div>No Quotes found.</div>
+      <% } %>
+    </div>
+    <h3><a href="/quotes/exit">Exit</a></h3>
+    </div>
+  </body>
+</html>

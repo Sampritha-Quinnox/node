@@ -1,0 +1,72 @@
+body {
+    
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #555555;
+    
+  }
+  .myDiv {
+    border: 5px outset oldlace;
+    background-color: darkcyan;
+    text-align: center;
+  }
+  a {
+    color:darkslateblue;
+  }
+  
+  .container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color:lightcyan;
+    width: 800px;
+    border-radius: 6px;
+    align-items: center;
+  }
+  .container h3 a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: darkcyan;
+    border-radius: 6px;
+    color: #FFFFFF;
+  }
+  
+  .container h3 a:hover, .container table tr td button:hover {
+    background-color: skyblue;
+    color: #999999;
+  }
+  
+  .container table {
+    width: 360px;
+  }
+  
+  .container table tr td {
+    padding: 5px;
+  }
+  
+  .container table tr td input, .container table tr td textarea {
+    border: solid 1px #dddddd;
+    padding: 5px 10px;
+    border-radius: 6px;
+    width: 100%;
+    color: black;
+  }
+  
+  .container table tr td button {
+    border: solid 1px #AABF5C;
+    background-color: #00AE4D;
+    border-radius: 6px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 10px 20px;
+  }
+  
+ 
+  
+  .container .list-table {
+    width: 360px;
+    border: solid 2px darkcyan;
+    border-spacing: 40;
+  }
+  
+ 
+  
